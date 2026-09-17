@@ -1,0 +1,68 @@
+name: Scrape All & Deploy
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      scraper:
+        description: 'Ten scraper (de trong = tat ca): chuoichien'
+        required: false
+        default: ''
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install curl_cffi python-dateutil Pillow playwright beautifulsoup4 lxml
+          playwright install chromium --with-deps
+
+      - name: Run
+        run: |
+          FILTER="${{ github.event.inputs.scraper }}"
+          if [ -n "$FILTER" ]; then
+            python run_all.py "$FILTER"
+          else
+            python run_all.py
+          fi
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Show Results
+        run: |
+          echo "=== docs/ (*.m3u) ==="
+          find docs -maxdepth 1 -name "*.m3u" 2>/dev/null | while read f; do
+            echo "  $f: $(grep -c '#EXTINF' "$f" 2>/dev/null || echo 0) kenh"
+          done
+          echo ""
+          TOTAL=$(grep -c '#EXTINF' docs/all.m3u 2>/dev/null || echo 0)
+          echo "Total in docs/all.m3u: $TOTAL kenh"
+
+      - name: Commit & Push (safe)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Add only docs/ and thumbs/ (output_m3u no longer used)
+          git add -A docs/ thumbs/ || true
+          # If there are no staged changes, exit cleanly
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin HEAD:main
+          fi
