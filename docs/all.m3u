@@ -1,15 +1,10 @@
 #EXTM3U
-# Updated : 2026-10-08 03:00 UTC
-# Total   : 15 kenh
-# CHUOICHIENTV        : 15 kenh
+# Updated : 2026-10-08 10:20 UTC
+# Total   : 14 kenh
+# CHUOICHIENTV        : 14 kenh
 
 
-# ══ CHUOICHIENTV (15 kenh) ══
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png" group-title="CHUOICHIENTV",[08h20] Atletico Nacional vs Deportes Tolima
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+# ══ CHUOICHIENTV (14 kenh) ══
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_150323_715237fc.png" group-title="CHUOICHIENTV",[16h00] Hồ Chí Minh City W vs TKS Việt Nam Nữ
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
