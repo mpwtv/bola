@@ -1,22 +1,12 @@
 #EXTM3U
-# Updated : 2026-10-13 23:57 UTC
-# Total   : 26 kenh
-# CHUOICHIENTV        : 26 kenh
+# Updated : 2026-10-14 03:31 UTC
+# Total   : 24 kenh
+# CHUOICHIENTV        : 24 kenh
 
 
-# ══ CHUOICHIENTV (26 kenh) ══
+# ══ CHUOICHIENTV (24 kenh) ══
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_2eb7128c.png" group-title="CHUOICHIENTV",[06h30] Bucaramanga vs Rionegro Aguilas
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131432_a5a02afb.png" group-title="CHUOICHIENTV",[07h30] Boca Juniors vs Vasco DA Gama
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133531_9d48bb0f.png" group-title="CHUOICHIENTV",[08h30] Millonarios vs Once Caldas
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133456_c39080c4.png" group-title="CHUOICHIENTV",[09h00] San Carlos vs Inter San Carlos
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
