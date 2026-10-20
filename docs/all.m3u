@@ -1,17 +1,12 @@
 #EXTM3U
-# Updated : 2026-10-20 01:16 UTC
-# Total   : 19 kenh
-# CHUOICHIENTV        : 19 kenh
+# Updated : 2026-10-20 06:06 UTC
+# Total   : 18 kenh
+# CHUOICHIENTV        : 18 kenh
 
 
-# ══ CHUOICHIENTV (19 kenh) ══
+# ══ CHUOICHIENTV (18 kenh) ══
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133531_4547a757.png" group-title="CHUOICHIENTV",[08h05] Deportivo Pasto vs Alianza Petrolera
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140543_5edf4a37.png" group-title="CHUOICHIENTV",[15h30] Adhyaksa vs Arema FC
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20261020_043332_0bb43b09.png" group-title="CHUOICHIENTV",[15h30] Isenmulang Kalteng vs Malut United
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8
