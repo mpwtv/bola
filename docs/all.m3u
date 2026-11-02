@@ -1,25 +1,10 @@
 #EXTM3U
-# Updated : 2026-11-01 21:28 UTC
-# Total   : 20 kenh
-# CHUOICHIENTV        : 20 kenh
+# Updated : 2026-11-02 00:58 UTC
+# Total   : 17 kenh
+# CHUOICHIENTV        : 17 kenh
 
 
-# ══ CHUOICHIENTV (20 kenh) ══
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125602_ea0cc895.png" group-title="CHUOICHIENTV",[02h45] Juventus vs Napoli
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125511_cf0f54fc.png" group-title="CHUOICHIENTV",[02h45] Marseille vs Toulouse
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125622_e607f942.png" group-title="CHUOICHIENTV",[03h00] Athletic Club vs Real Sociedad
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+# ══ CHUOICHIENTV (17 kenh) ══
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260930_011303_48ab49d9.png" group-title="CHUOICHIENTV",[06h10] Independiente Medellín vs Alianza Petrolera
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv//
